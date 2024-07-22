@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-venta-articulos",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix windymarketBackend\" \"npm run dev --prefix windymarketuser\"",
+    "start": "concurrently \"npm run start --prefix windymarketBackend\" \"npm run start --prefix windymarketuser\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
